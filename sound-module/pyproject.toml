@@ -1,0 +1,11 @@
+[project]
+name = "sound-module"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "noisereduce>=3.0.3",
+    "soundfile>=0.13.1",
+    "torchaudio>=2.8.0",
+]
